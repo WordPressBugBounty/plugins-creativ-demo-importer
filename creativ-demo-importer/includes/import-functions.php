@@ -51,6 +51,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     }
     elseif(get_stylesheet() == 'mavix-agency'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-agency-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-corporate'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-corporate-list.php';
     }else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
