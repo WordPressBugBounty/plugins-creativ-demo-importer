@@ -69,6 +69,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     }
     elseif(get_stylesheet() == 'mavix-restaurant'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-restaurant-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-kindergarten'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-kindergarten-list.php';
     }else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }

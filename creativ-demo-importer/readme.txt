@@ -2,7 +2,7 @@
 Contributors: creativthemes
 Requires at least: 4.9
 Tested up to: 6.8
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Requires PHP: 4.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -19,6 +19,9 @@ Creativ Themes starter sites importer.
 3. Done!
 
 == Changelog ==
+
+= 1.3.1 =
+* updated mavix kindergarten demo files
 
 = 1.3.0 =
 * updated mavix restaurant demo files
