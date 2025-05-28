@@ -72,7 +72,11 @@ function creativ_demo_importer_starter_sites($starter_sites){
     }
     elseif(get_stylesheet() == 'mavix-kindergarten'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-kindergarten-list.php';
-    }else{
+    }
+    elseif(get_stylesheet() == 'mavix-music'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-music-list.php';
+    }
+    else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
     return $starter_sites;

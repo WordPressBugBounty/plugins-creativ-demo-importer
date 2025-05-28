@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Creativ Demo Importer
  * Description: Creativ Themes starter sites importer.
- * Version:     1.3.1
+ * Version:     1.3.2
  * Author:      creativthemes
  * Author URI:  
  * License:     GPLv3 or later
