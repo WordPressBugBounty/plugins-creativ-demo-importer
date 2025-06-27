@@ -79,6 +79,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-medical'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-medical-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-charity'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-charity-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
