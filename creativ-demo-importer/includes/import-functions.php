@@ -85,6 +85,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'creativ-business-fse'){
         require plugin_dir_path(__FILE__) . 'starter-sites/creativ-business-fse-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-portfolio'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-portfolio-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
