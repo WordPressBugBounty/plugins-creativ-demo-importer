@@ -1,8 +1,8 @@
 === Creativ Demo Importer ===
 Contributors: creativthemes
 Requires at least: 4.9
-Tested up to: 6.8
-Stable tag: 1.3.8
+Tested up to: 6.9
+Stable tag: 1.4.9
 Requires PHP: 4.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -19,6 +19,39 @@ Creativ Themes starter sites importer.
 3. Done!
 
 == Changelog ==
+
+= 1.4.9 =
+* added mavix preschool demo
+
+= 1.4.8 =
+* added mavix blogger demo
+
+= 1.4.7 =
+* added mavix cafe demo
+
+= 1.4.6 =
+* added mavix university demo
+
+= 1.4.5 =
+* added mavix resort demo
+
+= 1.4.4 =
+* updated mavix builder demo list
+
+= 1.4.3 =
+* updated mavix education demo list
+
+= 1.4.2 =
+* updated mavix builder demo files
+
+= 1.4.1 =
+* updated mavix resume demo files
+
+= 1.4.0 =
+* updated mavix lawyer demo files
+
+= 1.3.9 =
+* updated mavix event demo files
 
 = 1.3.8 =
 * updated mavix insurance demo files

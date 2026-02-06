@@ -94,7 +94,33 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-insurance'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-insurance-list.php';
     }
-    else{
+    elseif(get_stylesheet() == 'mavix-event'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-event-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-lawyer'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-lawyer-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-resume'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-resume-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-builder'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-builder-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-resort'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-resort-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-university'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-university-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-cafe'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-cafe-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-blogger'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-blogger-list.php';
+    }
+    elseif(get_stylesheet() == 'mavix-preschool'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-preschool-list.php';
+    }else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
     return $starter_sites;

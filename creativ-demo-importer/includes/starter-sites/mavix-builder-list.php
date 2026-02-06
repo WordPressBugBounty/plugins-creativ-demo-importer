@@ -5,35 +5,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $starter_sites = array(
-    'education' => array(
-        'title'          => __( 'Education', 'creativ-demo-importer' ), 
+    'builder' => array(
+        'title'          => __( 'Builder', 'creativ-demo-importer' ), 
         'is_pro'         => false,
         'type'           => 'elementor',
         'author'         => __( 'Creativ Themes', 'creativ-demo-importer' ),
-        'keywords'       => array( 'mavix', 'education' ),
-        'categories'     => array( 'education' ),
+        'keywords'       => array( 'mavix', 'construction' ),
+        'categories'     => array( 'construction' ),
         'template_url'   => array(
-            'content' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education/content.json',
-            'options' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education/options.json',
-            'widgets' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education/widgets.json',
+            'content' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder/content.json',
+            'options' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder/options.json',
+            'widgets' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder/widgets.json',
         ),
-        'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-education.jpg',
-        'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-education/',
+        'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-builder.jpg',
+        'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-builder/',
     ),
-    'education-pro' => array(
-        'title'          => __( 'Education Pro', 'creativ-demo-importer' ), 
+    'builder-pro' => array(
+        'title'          => __( 'Builder Pro', 'creativ-demo-importer' ), 
         'is_pro'         => true,
         'type'           => 'elementor',
         'author'         => __( 'Creativ Themes', 'creativ-demo-importer' ),
-        'keywords'       => array( 'mavix', 'education' ),
-        'categories'     => array( 'education' ),
+        'keywords'       => array( 'mavix', 'construction' ),
+        'categories'     => array( 'construction' ),
         'template_url'   => array(
-            'content' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/content.json',
-            'options' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/options.json',
-            'widgets' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/widgets.json',
+            'content' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder-pro/content.json',
+            'options' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder-pro/options.json',
+            'widgets' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-builder-pro/widgets.json',
         ),
-        'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-education-pro.jpg',
-        'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-education-pro/',
+        'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-builder-pro.jpg',
+        'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-builder-pro/',
         'pro_url'        => 'https://www.creativthemes.com/mavix-pro/',
     ),
     'resume-pro' => array(
@@ -248,6 +248,22 @@ $starter_sites = array(
         ),
         'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-construction-pro.jpg',
         'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-construction-pro/',
+        'pro_url'        => 'https://www.creativthemes.com/mavix-pro/',
+    ),
+    'education-pro' => array(
+        'title'          => __( 'Education Pro', 'creativ-demo-importer' ), 
+        'is_pro'         => true,
+        'type'           => 'elementor',
+        'author'         => __( 'Creativ Themes', 'creativ-demo-importer' ),
+        'keywords'       => array( 'mavix', 'education' ),
+        'categories'     => array( 'education' ),
+        'template_url'   => array(
+            'content' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/content.json',
+            'options' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/options.json',
+            'widgets' => CREATIV_DEMO_IMPORTER_URL. 'includes/starter-sites/json/mavix-education-pro/widgets.json',
+        ),
+        'screenshot_url' => CREATIV_DEMO_IMPORTER_URL.'assets/img/mavix-education-pro.jpg',
+        'demo_url'       => 'https://creativthemes.com/theme-demo/mavix-education-pro/',
         'pro_url'        => 'https://www.creativthemes.com/mavix-pro/',
     ),
     'finance-pro' => array(
