@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Creativ Demo Importer
  * Description: Creativ Themes starter sites importer.
- * Version:     1.4.9
+ * Version:     1.5.0
  * Author:      creativthemes
  * Author URI:  
  * License:     GPLv3 or later
@@ -47,6 +47,14 @@ function creativ_demo_importer_dashboard_redirect() {
         exit;
     }
 }
+
+function creativ_demo_importer_remove_template_import_submenu() {
+    remove_submenu_page(
+        'themes.php',          
+        'advanced-import-template'      
+    );
+}
+add_action( 'admin_menu', 'creativ_demo_importer_remove_template_import_submenu', 999 );
 
 /**
  *  Creativ demo importer dashboard.
