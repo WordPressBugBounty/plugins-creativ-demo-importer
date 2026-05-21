@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Creativ Demo Importer
  * Description: Creativ Themes starter sites importer.
- * Version:     1.5.4
+ * Version:     1.5.5
  * Author:      creativthemes
  * Author URI:  
  * License:     GPLv3 or later
@@ -72,3 +72,18 @@ require plugin_dir_path( __FILE__ ) . 'includes/import-functions.php';
 if(!class_exists( 'Advanced_Import' )){
     require plugin_dir_path( __FILE__ ) . 'lib/admin/install-functions.php';
 }
+
+/**
+ * Hide Wpmet promotional notices
+ */
+
+add_action('admin_head', function () {
+    echo '<style>
+        .wpmet-notice,
+        .wpmet-banner,
+        .notice[class*="wpmet"],
+        div[class*="wpmet"] .notice {
+            display:none !important;
+        }
+    </style>';
+});
