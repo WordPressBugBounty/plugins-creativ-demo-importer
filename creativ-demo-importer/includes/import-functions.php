@@ -124,6 +124,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-accounting'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-accounting-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-beat'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-beat-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Creativ Demo Importer
  * Description: Creativ Themes starter sites importer.
- * Version:     1.5.5
+ * Version:     1.5.6
  * Author:      creativthemes
  * Author URI:  
  * License:     GPLv3 or later
@@ -87,3 +87,13 @@ add_action('admin_head', function () {
         }
     </style>';
 });
+
+add_action( 'admin_head', function () {
+    ?>
+    <style>
+        #e-conversion-banner {
+            display: none !important;
+        }
+    </style>
+    <?php
+} );
