@@ -136,6 +136,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-courier'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-courier-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-bakery'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-bakery-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
