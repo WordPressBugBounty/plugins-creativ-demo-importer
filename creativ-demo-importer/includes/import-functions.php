@@ -142,6 +142,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-driving-school'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-driving-school-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-laundry'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-laundry-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
