@@ -145,6 +145,9 @@ function creativ_demo_importer_starter_sites($starter_sites){
     elseif(get_stylesheet() == 'mavix-laundry'){
         require plugin_dir_path(__FILE__) . 'starter-sites/mavix-laundry-list.php';
     }
+    elseif(get_stylesheet() == 'mavix-catering'){
+        require plugin_dir_path(__FILE__) . 'starter-sites/mavix-catering-list.php';
+    }
     else{
         require plugin_dir_path(__FILE__) . 'starter-sites/default-list.php';
     }
